@@ -6,7 +6,7 @@ This is simple code used to explain the require,assert and revert statements.
 
 ## Description
 
-This is a simple Solidity smart contract that allows you to set a value. The contract has a public state variable called value of type uint256, which means an unsigned integer that can hold values between 0 and 2^256-1. The contract also has a public function called setValue that takes a single argument, which is a uint256 value that will be assigned to the value variable.
+This Solidity smart contract named errors contains three functions, Require(), Revert(), and Assert(). Require() uses the require() statement to check if the value of _z is greater than zero, otherwise it throws an error. Revert() checks if the sum of x and y is greater than 10, otherwise it throws an error. Assert() uses the assert() statement to check if n is greater than zero, otherwise it throws an error.
  
 
 ## Requirements
